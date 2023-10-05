@@ -18,7 +18,7 @@ ax3.errorbar(PetLen, SepLen, yerr = 0.1, xerr = 0.01, color = '0', linestyle = '
 ax1.set_title('SepWid(SepLen)')
 ax2.set_title('PetWid(PetLen)')
 ax3.set_title('SepLen(PetLen)')
-plt.savefig('4.png', dpi = 300)
+plt.savefig('4(1).png', dpi = 300)
 
 ger = plt.figure(figsize = (9, 16))
 ax1 = ger.add_subplot(311)
@@ -35,7 +35,7 @@ ax3.errorbar(SepLen, PetWid, yerr = 0.1, xerr = 0.01, color = 'c', linestyle = '
 ax1.set_title('SepWid(PetWid)')
 ax2.set_title('SepWid(PetLen)')
 ax3.set_title('PetWid(SepLen)')
-plt.savefig('5.png', dpi = 300)
+plt.savefig('4(2).png', dpi = 300)
 
 
 

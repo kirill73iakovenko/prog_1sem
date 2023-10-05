@@ -8,6 +8,6 @@ values2 = np.random.normal(0, 10, 10000000)
 plt.hist(values2, 100, color = "red", alpha = 0.5, density = True)
 
 
-plt.savefig("52.png")
+plt.savefig("2.png")
 
 

@@ -21,8 +21,6 @@ ax3.errorbar = (Pet_Len, Sep_Wid, linestyle = 'None')
 ax1.set_title('Sep_Wid(Sep_len)')
 ax2.set_title('Pet_Wid(Pet_len)')
 ax3.set_title('Set_Wid(Pet_len)')
-'''ax4.set_title('Pet_Wid(Sep_Len)')
-ax5.set_title('Pet_Len(Set_Len)')
-ax6.set_title('Pet_Wid(Set_Wid)')'''
 
-plt.savefig('4.png', dpi = 300)
+
+plt.savefig('4(1).png', dpi = 300)

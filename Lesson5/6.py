@@ -23,5 +23,5 @@ ax.plot(time, price, '--r')
 ax.plot(numbers, yvals)
 ax.set_xticks(time_50)
 plt.xticks(rotation = 90)
-plt.savefig('60.png')
+plt.savefig('6.png')
 
