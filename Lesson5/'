@@ -1,0 +1,10 @@
+import string:wq
+with open('1.txt') as file:
+    text = file.read().replace('\n', '')
+text = text.replace(text.punctuation)
+Words = dict()
+text_s = list(text.split())
+print(text_s)
+
+
+
